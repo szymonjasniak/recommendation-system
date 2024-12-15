@@ -1,0 +1,6 @@
+{
+  "provider_topics": {
+    "ProviderA": "Topic1+Topic2+Topic3",
+    "ProviderB": "Topic4+Topic5"
+  }
+}
