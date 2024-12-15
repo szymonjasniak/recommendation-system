@@ -15,6 +15,7 @@ public class ProviderTopics {
     private final Map<TopicName, Integer> topics;
 
     public ProviderTopics(List<TopicName> topics) {
+        assert topics != null && topics.size() <= 3;
         this.topics = topics.stream().collect(Collectors.toMap(identity(), topics::indexOf));
     }
 
